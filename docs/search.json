@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "BES guides The British Ecological Society has a series of guides to research excellence on topics like data management, reproducible coding and more.\nBioST@TS BioST@TS is an online platform with everything you need to know to write your thesis in R (Working in R, Git/GitHub, Quarto, targets, and making R packages)."
+  },
+  {
+    "objectID": "resources.html#open-science-practice",
+    "href": "resources.html#open-science-practice",
+    "title": "Resources",
+    "section": "",
+    "text": "BES guides The British Ecological Society has a series of guides to research excellence on topics like data management, reproducible coding and more.\nBioST@TS BioST@TS is an online platform with everything you need to know to write your thesis in R (Working in R, Git/GitHub, Quarto, targets, and making R packages)."
+  },
+  {
+    "objectID": "resources.html#data-collection---fieldwork",
+    "href": "resources.html#data-collection---fieldwork",
+    "title": "Resources",
+    "section": "Data collection - Fieldwork",
+    "text": "Data collection - Fieldwork\nQfield Efficient field data collection tool."
+  },
+  {
+    "objectID": "resources.html#reproducible-workflows",
+    "href": "resources.html#reproducible-workflows",
+    "title": "Resources",
+    "section": "Reproducible workflows",
+    "text": "Reproducible workflows\nQuarto template A template for a thesis written in quarto."
+  },
+  {
+    "objectID": "resources.html#society-community",
+    "href": "resources.html#society-community",
+    "title": "Resources",
+    "section": "Society / Community",
+    "text": "Society / Community\nSORTEESociety for Open, Reliable, and Transparent Ecology and Evolutionary Biology"
+  },
+  {
+    "objectID": "course_content.html",
+    "href": "course_content.html",
+    "title": "Content",
+    "section": "",
+    "text": "The course curriculum contains theory and interactive exercises as outlined below. This is the curriculum for all the OS courses and workshops. The teaching material is openly available (see links below).\n\n\n\n\n\nIntroduction to course\n\nPresentation\n\n\n\nGeneral introduction to Open Science\n\nPresentation\n\n\n\n\n\n\nData management plan, data papers and registered reports\n\nPresentation\n\n\n\nExecutable documents with Quarto\n\nPresentation BioST@TS quarto tutorial\n\n\n\n\n\n\nData life cycle\n\nBioST@TS data life cycle\n\n\n\nData handling\n\nPresentation\n\n\n\nMake a function\n\nPresentation\n\n\n\nWrite an R package\n\nBioST@TS R package tutorial\n\n\n\n\n\n\nData discovery and access - GBIF\n\nPresentation\n\n\n\nDarwin Core and AI\n\nPresentation\n\n\n\nWonders of GBIF\n\nPresentation\n\n\n\nBiases in GBIF data\n\nPresentation\n\n\n\nLiving Norway R package to publish data\n\nMaterial\n\n\n\n\n\n\nReproducible workflows - targets\n\nPresentation BioST@TS targets tutorial Reproducibility exercise\n\n\n\nVersion control - Git/GitHub\n\nBioST@TS targets tutorial\n\n\n\nReproducible environments\n\nPresentation\n\n\n\nLarge data sets\n\nPresentation\n\n\n\n\n\n\nSystematic reviews\n\nPresentation\n\n\n\nMeta analysis\n\nPresentation\n\n\n\nBest practice in data analysis\n\nMaterial\n\n\n\nBest practice for reporting scientific results\n\nMaterial"
+  },
+  {
+    "objectID": "course_content.html#course-content",
+    "href": "course_content.html#course-content",
+    "title": "Content",
+    "section": "",
+    "text": "The course curriculum contains theory and interactive exercises as outlined below. This is the curriculum for all the OS courses and workshops. The teaching material is openly available (see links below).\n\n\n\n\n\nIntroduction to course\n\nPresentation\n\n\n\nGeneral introduction to Open Science\n\nPresentation\n\n\n\n\n\n\nData management plan, data papers and registered reports\n\nPresentation\n\n\n\nExecutable documents with Quarto\n\nPresentation BioST@TS quarto tutorial\n\n\n\n\n\n\nData life cycle\n\nBioST@TS data life cycle\n\n\n\nData handling\n\nPresentation\n\n\n\nMake a function\n\nPresentation\n\n\n\nWrite an R package\n\nBioST@TS R package tutorial\n\n\n\n\n\n\nData discovery and access - GBIF\n\nPresentation\n\n\n\nDarwin Core and AI\n\nPresentation\n\n\n\nWonders of GBIF\n\nPresentation\n\n\n\nBiases in GBIF data\n\nPresentation\n\n\n\nLiving Norway R package to publish data\n\nMaterial\n\n\n\n\n\n\nReproducible workflows - targets\n\nPresentation BioST@TS targets tutorial Reproducibility exercise\n\n\n\nVersion control - Git/GitHub\n\nBioST@TS targets tutorial\n\n\n\nReproducible environments\n\nPresentation\n\n\n\nLarge data sets\n\nPresentation\n\n\n\n\n\n\nSystematic reviews\n\nPresentation\n\n\n\nMeta analysis\n\nPresentation\n\n\n\nBest practice in data analysis\n\nMaterial\n\n\n\nBest practice for reporting scientific results\n\nMaterial"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "If you want to join the network, know about courses, or ask about the teaching material, email aud.halbritter@uib.no."
+  },
+  {
+    "objectID": "contact.html#contact-us",
+    "href": "contact.html#contact-us",
+    "title": "Contact",
+    "section": "",
+    "text": "If you want to join the network, know about courses, or ask about the teaching material, email aud.halbritter@uib.no."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "We offer hands-on training on best practice methods and technologies to make research more open, reproducible and transparent. Our courses and workshops are centred around the life-cycle of data from planning, managing, collecting, curating, analysing, publishing, storing, sharing and reusing data. They are aimed at PhD students as well as early-career researchers in ecology, who produce their own data (i.e. collect data in the field/lab), use data from others (i.e. databases) or both."
+  },
+  {
+    "objectID": "courses.html#upcoming-courses-and-workshops",
+    "href": "courses.html#upcoming-courses-and-workshops",
+    "title": "Courses",
+    "section": "Upcoming courses and workshops",
+    "text": "Upcoming courses and workshops\nOpen, Reproducible and Transparent Science for PhD students in 2026."
+  },
+  {
+    "objectID": "courses.html#participants",
+    "href": "courses.html#participants",
+    "title": "Courses",
+    "section": "Participants",
+    "text": "Participants\n\n\n\n\nSince 2022, 78 people have taken part, from 20 countries. Another 18 are registered for 2026. Most people on the list are PhD students. Choose a year to see where participants came from and which degree they were working towards.\n\nAll years\n2022\n2023\n2024\n2025\n2026\n\n\n\n96\nParticipants\n\n\n21\nCountries\n\n\n74\nPhD students\n\n\n22\nOther degrees\n\n\n\n\n\n\n\n\nDegree\n\n\n\nCountries\n\n\n\n\nParticipants by year\n\nThe pink bar is 2026, registrations for the upcoming course.\n\n\nResearch topics"
+  },
+  {
+    "objectID": "courses.html#past-courses-and-workshops",
+    "href": "courses.html#past-courses-and-workshops",
+    "title": "Courses",
+    "section": "Past courses and workshops",
+    "text": "Past courses and workshops\n\nCourse - Hjerkinn, 2025\nThe 2025 Open, Reproducible and Transparent Course in Ecology was held again at Hjerkinn between the 10th and 15th of November. This year we had 21 students participating in the course. The international group was from institutions in Norway, Sweden, Finnland, Island, UK, Northern Ireland, Austria, and Ghana. The teachers included experts on different topics from GBIF Norway (UiO), NTNU, NINA, and UiB.\nThe whole week was dedicated to teaching and learning about the data life cycle. We started with a general introduction to Open Science,tools and approaches, and continued with topics on data handling, repositories, publishing and reuse, reproducible workflows, and analysis. The course was a mix of lectures and hands-on practical exercises. The students got an introduction to GBIF, Darwin Core, and biases in GBIF data. We also covered best practice in data analysis, reporting results, and systematic reviews and meta analysis. For the first time, we also discussed using AI in data publishing and coding. Finally the students were also introduced to tools for more reproducible workflows including quarto, GitHub, and targets. In the middle of the week we took a well deserved break and went for a short hike to Vålåsjøhøe. This was essential to clear our heads and continue the data wrangling and coding for the rest of the week. On the last day, all the students had the opportunity to apply what they have learnt to their own data and work.\nAfter a whole week of discussions and coding we all left Hjerkinn satisfied. Hopefully, everybody went home with a new toolkit to apply in their daily data management and coding to support more open and reproducible ecological science.\nThank you for the wonderful week!\n\n\n\nGroup of teachers and students on Open Science course in 2025.\n\n\n\n\n\nStudents on the Open Science course.\n\n\n\n\n\nView from top of Vålåsjøhøe.\n\n\n\n\nCourse - Hjerkinn, 2024\nThe 2024 Open, Reproducible and Transparent Science in Ecology was held at Hjerkinn again between the 6.- 11. November. This year, we had an international group of 13 students from Scandinavia (Norway, Finland, and Denmark/Greenland), Switzerland and the UK.\nThe students were interested and engaged in learning how to wrangle data, write code, execute functions, and learning how to make an R package. The course curriculum also contains reproducible workflows, using tools to improve reproducibility in their own work, such as quarto, git/GitHub and targets. We had invited guest lecturers to talk about GBIF, Darwin Core data standards and what it takes to meet the FAIR data standards. One evening we conducted an exercise, where the students screened articles in ecological journals, searching for openly available data and code to reproduce the analysis. The result was eye-opening for the students in that most data was available, however the analysis could rarely be reproduced due to lack of availability of code. Mid-week, we organized a hike to Vålåsjøhøe to get some fresh are and clear our heads. After the hike, we got a presentation from Roy Andersen who works at the Villreinsenter at Hjerkinn. He presented the ecology and status of the reindeer in Norway and the work the Villreinsenter does to protect the reindeer. On the last day, the students got the opportunity to work on their own projects, applying new approaches they have learned. \nAfter five days, we left Hjerkinn tired and satisfied, full of ideas, motivation and inspiration from the new tools and skills to improve how to do science.\n\n\n\nGroup of teachers and students on Open Science course in 2024. Photo: Erik Kusch\n\n\n\n\nCourse - Hjerkinn, 2023\n\n\n\nGroup of teachers and students on Open Science course in 2023. Photo: Erik Kusch\n\n\nIn November 2023, the Open Science course was held at Hjerkinn, located between Oslo and Trondheim. Everybody made their way slowly up the mountain. The journey from Oslo took an hour longer, because of a missing bridge and a “bus for tog” replacement. The weather at Hjerkinn was sunny and we entered a winter wonderland. Not only the beauty took away our breath, as the temperature was far below 0 °C. An we walked though deep snow to our accommodation.\nOur international students this year were from Scandinavia (Norway, and Denmark), and Europe and Asia (Belgium, Switzerland, Italy, and Thailand). This year one supervisor from a student that took the course last year attended the course to be able to keep up with their students. Also, a cat and a dog were part of the team.\nEvery day we quickly ran to our lecture room before freezing, as this required a few steps outside. The students were very interested and engaged and learned how to wrangle data, write code, execute functions, and even learned how to make a package. They learned about reproducible workflows, using tools to improve reproducibility in their own work, such as quarto, git/GitHub and targets. Also, they learned about GBIF, Darwin Core data standards and what it takes to meet the FAIR data standards. One evening we had a fun exercise, where we went through journals searching if the authors provided data and code for their studies and analysis. While the work was fun and the students did not want to stop, the results was disappointing, as we did not find a lot of data and code that was accessible. Mid week, we visited the Villreinsenter at Hjerkinn and afterwards hike through deep snow to a little top and had a deserved break.\nAfter five days, we left Hjerkinn tired and satisfied; full of ideas, motivation and newly aquired tools and skills to improve our work and workflows.\n\n\n\nWorkshop - Managing Ecological Data, NØF 2023\nWe organized a workshop at the NØF 2023 conference at NMBU on Managing ecological data: Best practices for data sharing and data reuse based on transparent and reproducible workflows. The aim of the workshop was to illustrate what data management is and why it is important. We showed best practice in managing ecological data for sharing your own data, applying FAIR principles, and for reusing existing datasets. The workshop included hands-on training tools for sharing data and making reproducible documents.\nThe workshop was aimed at ecologists that create and/or reuse ecological data from early career researchers with little experience with data management to more experienced researchers. The hands-on training will be based on selected case studies, and implemented in statistical program R.\nOrganized by Aud H. Halbritter (University of Bergen), Erlend B. Nilsen (Norwegian Institute for Nature Research and Nord University, and project leader of Living Norway Ecological Data Network) and Matt Grainger (Norwegian Institute for Nature Research).\n\n\nCourse - Finse Alpine Research Center, 2022\n\n\n\nGroup of students and teacher at Open Science course in 2023 at Finse. Photo: Jens Ådne Rekkedal Haga.\n\n\nIn November, we held a course on Open, Reproducible, and Transparent Science in Ecology at the Biological Research Station at Finse. The course was a collaboration between BioCEED (University of Bergen), GBIF Norway and Living Norway with teachers from NINA, NTNU, UiO and UiB. The course was aimed for PhD students and offered hands-on training, skills and knowledge on Open Science, data collection, data handling, data standards, data repositories and publishing, reproducible workflows and best practice in data analysis.\nOn Monday, 14th of November a group of students and teachers made their way slowly up the mountain to Finse. The students were an international group from Scandinavia (Norway, Sweden, Denmark), Spain, Eastern Europe, Eurasia and Asia (Ukraine, Belarus, Georgia, Armenia, India, Tajikistan). It was unusually warm for the season, and there was no snow, which was lucky for those who were not prepared for the alpine environment.\nWhile the temperature was dropping and the wind was howling, the students were wrangling data, writing code, and executing functions. They recorded frozen species and made their own data collection to understand the importance of also recording metadata (the data around the data). They learned why reproducible workflows, using tools such as quarto, git/GitHub and targets can benefit your future self, increase collaboration and make your research more robust. And finally, they learned about GBIF, Darwin Core data standards and what it takes to meet the FAIR data standards.\nFive days later, loaded with a toolbox full of new skills the students made their way slowly down the mountain. They were happy and tired and showed a strong motivation to apply the new skills and knowledge in their own work and spread the word about Open Science among their colleagues and supervisors."
+  },
+  {
+    "objectID": "about_us.html",
+    "href": "about_us.html",
+    "title": "About Us",
+    "section": "",
+    "text": "We are a group of ecologists, statisticians and everything in between, with interests in Open Science, reproducibility and transparency in Ecology.\n\n\n\n\n\n\nAud H. Halbritter\nI am a researcher in plant ecology at the University of Bergen (Norway) interested in global change impacts on alpine biodiversity and ecosystem functions. I have co-developed bioST@TS, an online teaching and learning platform on data processing and reproducible workflows. I also develope tools for reproducible workflows and quantitative analysis, and have initiated and lead this early career course on Open Science.\n\n\n\n\n\n\n\nMatt Grainger\nI am a researcher at NINA (Norwegian Institute for Nature Research) interested in evidence-based conservation and in metascience (“the science of science”). I am a part of the Living Norway Ecological Data Network and within that project focus on developing tools (e.g. R packages, Shiny Apps, etc.) and workflows to help researchers share their data openly and to make use of open data in their research. I am a member of the ESHackathon, an interdisciplinary community of practice making evidence-based decisions easier to achieve through opensource software, and SORTEE (Society for Open, Repeatable and Transparent Ecology and Evolution).\n\n\n\n\n\n\n\nDag Endresen\nI am the node manager for GBIF Norway, the Norwegian participant node of the Global Biodiversity Information Facility, based at the Natural History Museum, University of Oslo. I work on biodiversity informatics, including data standards and open publication of biodiversity data, and I teach people how to publish and use those data. Before joining the museum I worked at the GBIF secretariat and at the Nordic Genetic Resources Center.\n\n\n\n\n\n\n\nMichal Torma\nI am a head engineer at the Natural History Museum, University of Oslo, and a data steward at GBIF Norway. I publish biodiversity data, teach people how to work with it, and help digitise metadata from the museum collections. My background is in environmental science and programming.\n\n\n\n\n\n\n\nStefanie Muff\nI am an Associate Professor in Statistics at the Norwegian University of Science and Technology (NTNU) in Trondheim, Norway. I am collaborating with biologists and ecologists on a regular basis and is therefore having an intrinsic interest in open and reproducible science.\n\n\n\n\n\n\n\nRichard J. Telford\nI am a palaeoecologist at the University of Bergen (UiB), Norway. I am interested in quantitative palaeoecology, keen to make research in ecology and palaeoecology more reproducible and the organiser of R-klubben, a drop-in peer-to-peer R help session at the Department of Bioscience at UiB.\n\n\n\n\n\n\n\nErlend B. Nilsen\nI am a professor at Nord University. I am an applied quantitative ecologist, working mainly with bird and mammal populations and with how climate, harvest and land use affect them. I initiated the Living Norway Ecological Data Network, which works to make ecological data open and reusable, and I am interested in how we look after ecological data so that other researchers and society can use it.\n\n\n\n\n\n\n\nJoe Chipperfield\nI am a researcher at NINA. I work on statistical ecology, including species distribution models and ways to estimate wildlife abundance from spatial capture-recapture data. I also develop tools for open biodiversity data, including the LivingNorway R package, which helps researchers publish ecological datasets in the Darwin Core standard.\n\n\n\n\n\n\n\nSam Perrin\nI am a biodiversity researcher at NTNU’s Department of Natural History. I work with open biodiversity data and species distribution models, and I build automated pipelines that turn those data into maps of where conservation should be prioritised. Before that I did a PhD on climate change and invasive species in freshwater ecosystems, and I founded Ecology for the Masses."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Living Norway Open Science Training",
+    "section": "",
+    "text": "We are a group of ecologists and statisticians in Norway who want to increase the awareness of Open Science principles in our community and provide education and teaching material on open and reproducible science in ecology."
+  },
+  {
+    "objectID": "index.html#the-aim",
+    "href": "index.html#the-aim",
+    "title": "Living Norway Open Science Training",
+    "section": "",
+    "text": "We are a group of ecologists and statisticians in Norway who want to increase the awareness of Open Science principles in our community and provide education and teaching material on open and reproducible science in ecology."
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "Living Norway Open Science Training",
+    "section": "What we do",
+    "text": "What we do\nWe organize courses and workshops on Open Science for ecologists.\nWe openly provide the teaching material for the Open Science course.\nWe develop tools to facilitate Open Science practices in our community."
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Living Norway Open Science Training",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nOpen Science Training is part of the Living Norway Ecological Data Network and a collaboration with the University of Bergen, Nord University, GBIF Norway, Norwegian University of Science and Technology, University of Oslo and Norwegian Institute for Nature Research."
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Living Norway Open Science Training",
+    "section": "License",
+    "text": "License\nThe material on this webpage is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0). For more information see creativecommons.org."
+  }
+]
