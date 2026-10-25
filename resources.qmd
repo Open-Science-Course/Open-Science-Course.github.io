@@ -9,7 +9,7 @@ title: "Resources"
 
 ## Data collection - Fieldwork
 
-[**Qfield**](https://qfield.org/) Efficient field data collection tool.
+[Qfield](https://qfield.org/) Efficient field data collection tool.
 
 ## Reproducible workflows
 
@@ -17,4 +17,4 @@ title: "Resources"
 
 ## Society / Community
 
-[**SORTEE**](https://sortee.org/)Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology
+[SORTEE](https://sortee.org/) Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology
