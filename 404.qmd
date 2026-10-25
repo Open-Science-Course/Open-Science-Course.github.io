@@ -1,0 +1,80 @@
+---
+title: "Page not found"
+toc: false
+format:
+  html:
+    include-in-header:
+      - text: |
+          <!-- Keep CSS/nav working when GitHub serves this file under a mistyped URL -->
+          <base href="/">
+---
+
+Sorry — we couldn't find that page.
+
+```{=html}
+<p id="suggestion" style="display: none;"></p>
+
+<p>You can try one of these pages instead:</p>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="courses.html">Courses</a></li>
+  <li><a href="course_content.html">Course content</a></li>
+  <li><a href="resources.html">Resources</a></li>
+  <li><a href="about_us.html">About us</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<script>
+(function () {
+  // Known pages on this site (basename without .html)
+  const pages = [
+    { slug: "index", href: "index.html", label: "Home" },
+    { slug: "courses", href: "courses.html", label: "Courses" },
+    { slug: "course_content", href: "course_content.html", label: "Course content" },
+    { slug: "resources", href: "resources.html", label: "Resources" },
+    { slug: "about_us", href: "about_us.html", label: "About us" },
+    { slug: "contact", href: "contact.html", label: "Contact" }
+  ];
+
+  function levenshtein(a, b) {
+    const m = a.length, n = b.length;
+    const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        dp[i][j] = a[i - 1] === b[j - 1]
+          ? dp[i - 1][j - 1]
+          : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+      }
+    }
+    return dp[m][n];
+  }
+
+  // Path like /resouces.html or /resouces → "resouces"
+  const path = window.location.pathname.replace(/\/+$/, "");
+  const requested = path.split("/").pop().replace(/\.html?$/i, "").toLowerCase();
+  if (!requested || requested === "404") return;
+
+  let best = null;
+  let bestDist = Infinity;
+  for (const page of pages) {
+    const dist = levenshtein(requested, page.slug);
+    if (dist < bestDist) {
+      bestDist = dist;
+      best = page;
+    }
+  }
+
+  // Only suggest if it's a close typo (not a totally unrelated path)
+  const maxDist = Math.max(2, Math.floor(best.slug.length / 3));
+  if (best && bestDist > 0 && bestDist <= maxDist) {
+    const el = document.getElementById("suggestion");
+    el.style.display = "block";
+    el.innerHTML =
+      'Did you mean <a href="' + best.href + '"><strong>' + best.label +
+      '</strong></a> (<code>' + best.href + '</code>)?';
+  }
+})();
+</script>
+```
