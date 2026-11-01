@@ -2,19 +2,132 @@
 title: "Resources"
 ---
 
-## Open science practice
+Useful guides, tools, and communities related to open and reproducible science.
 
--   [BES guides](https://www.britishecologicalsociety.org/content-type/better-science-guides/) The British Ecological Society has a series of guides to research excellence on topics like data management, reproducible coding and more.
--   [BioST\@TS](https://biostats-r.github.io/biostats/) BioST\@TS is an online platform with everything you need to know to write your thesis in R (Working in R, Git/GitHub, Quarto, targets, and making R packages).
+```{=html}
+<style>
+.resources {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  margin: 1.2rem 0 1.6rem;
+}
+.resource-section {
+  padding: 0;
+}
+.resource-section h3 {
+  margin: 0 0 0.7rem;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: 1.08rem;
+  color: #243140;
+}
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+.resource-card {
+  background: rgba(255, 255, 255, 0.62);
+  border-radius: 10px;
+  padding: 0.85rem 1rem 0.9rem;
+  box-shadow: 0 1px 0 rgba(52, 73, 102, 0.08);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.resource-card:hover {
+  background: rgba(255, 255, 255, 0.88);
+  transform: translateY(-1px);
+}
+.resource-card h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.resource-card h4 a {
+  text-decoration: none;
+}
+.resource-card h4 a:hover {
+  text-decoration: underline;
+}
+.resource-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #2a3542;
+}
+</style>
+```
 
-## Data collection - Fieldwork
+:::::::::::::::::::: resources
+:::::: resource-section
+### Open science practice
 
-[Qfield](https://qfield.org/) Efficient field data collection tool.
+::::: resource-grid
+::: resource-card
+#### [BES guides](https://www.britishecologicalsociety.org/content-type/better-science-guides/)
 
-## Reproducible workflows
+Guides from the British Ecological Society on research excellence, including data management and reproducible coding.
+:::
 
-[Quarto template](https://github.com/biostats-r/quartothesis) A template for a thesis written in quarto.
+::: resource-card
+#### [BioST\@TS](https://biostats-r.github.io/biostats/)
 
-## Society / Community
+Online platform for writing a thesis in R: working in R, Git/GitHub, Quarto, targets, and making R packages.
+:::
+:::::
+::::::
 
-[SORTEE](https://sortee.org/) Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology
+::::: resource-section
+### Data collection - Fieldwork
+
+:::: resource-grid
+::: resource-card
+#### [Qfield app](https://qfield.org/)
+
+Efficient field data collection tool.
+:::
+::::
+:::::
+
+::::: resource-section
+### Reproducible workflows
+
+:::: resource-grid
+::: resource-card
+#### [Quarto template](https://github.com/biostats-r/quartothesis)
+
+A template for a thesis written in Quarto.
+:::
+::::
+:::::
+
+:::::: resource-section
+### Data publishing
+
+::::: resource-grid
+::: resource-card
+#### [Data quality requirements](https://www.gbif.org/data-quality-requirements)
+
+Requirements for sharing data through [GBIF.org](http://gbif.org/).
+:::
+
+::: resource-card
+#### [ChatIPT](https://chatipt.svc.gbif.no/)
+
+A tool to clean, connect, and prepare biodiversity data for GBIF.
+:::
+:::::
+::::::
+
+::::: resource-section
+### Society / Community
+
+:::: resource-grid
+::: resource-card
+#### [SORTEE](https://sortee.org/)
+
+Society for Open, Reliable, and Transparent Ecology and Evolutionary Biology.
+:::
+::::
+:::::
+::::::::::::::::::::
