@@ -128,52 +128,52 @@ Write an R package
 ::::
 :::::::::::
 
-::::::::::::: topic
+::::::::::: topic
 ### Data repositories
 
 :::: material
-Data discovery and access - GBIF
+Darwin Core (DwC), Data Publishing, Citation and IPT
 
 ::: material-links
-[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/Introduction%20to%20GBIF.pptx.pdf)
+[Presentation](https://michaltorma.github.io/Open-Science-Course-lectures/01-darwin-core-publishing-ipt/#/1)
 :::
 ::::
 
 :::: material
-Darwin Core and AI
+Using AI in Data Publishing + AI Exercise
 
 ::: material-links
-[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/DWC%20-%20OS%20Data%20course%202025%20-%20Hjerkinn.pdf)
+[Presentation](https://michaltorma.github.io/Open-Science-Course-lectures/02-using-ai-in-data-publishing/#/1)
 :::
 ::::
 
 :::: material
-Wonders of GBIF
+Mapping/modelling Biodiversity
 
 ::: material-links
-[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture1Hjerkinn.pdf)
+[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture1Hjerkinn_2026.pdf)
 :::
 ::::
 
 :::: material
-Biases in GBIF data
+Sampling biases
 
 ::: material-links
-[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture2Hjerkinn.pdf)
+[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture2Hjerkinn_2026.pdf)
 :::
 ::::
+:::::::::::
 
-:::: material
-Living Norway R package to publish data
-
-::: material-links
-Material
-:::
-::::
-:::::::::::::
-
-::::::::::: topic
+::::::::::::: topic
 ### Reproducible workflows
+
+:::: material
+Reproducible workflows - FAIR by design
+
+::: material-links
+[Presentation](https://github.com/Open-Science-Course/OS-training-material/blob/main/reproducibility/Reproducible_workflows.pdf)
+:::
+::::
 
 :::: material
 Reproducible workflows - targets
@@ -206,7 +206,7 @@ Large data sets
 [Presentation](https://open-science-course.github.io/OS-training-material/reproducibility/larger-than-RAM.html)
 :::
 ::::
-:::::::::::
+:::::::::::::
 
 ::::::::::: topic
 ### Analysis
