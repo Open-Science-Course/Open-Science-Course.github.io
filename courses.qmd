@@ -7,9 +7,14 @@ We offer hands-on training on best practice methods and technologies to make res
 
 ## Upcoming courses and workshops
 
-[Open, Reproducible and Transparent Science](https://www4.uib.no/en/studies/courses/bio940) for PhD students in 2026.
+**Workshop at NØF conference in Bergen, 9. February 2027\
+**Workshop on Reproducible Research Workflows: A hands-on workshop on Quarto, GitHub, and renv. The workshop is organized by Aud Halbritter and Richard Telford from the University of Bergen.\
+Sign up for the workshop [here](https://nordicsocietyoikos.glueup.com/event/oikos-norway-2027-in-bergen-190260/workshops.html).
 
-## Participants
+**Bio940 course on Open, Reproducible and Transparent Science, October 2027\
+**More information on the course will be published at the [UiB course pages](https://www4.uib.no/en/studies/courses/bio940) and the [UiB Terrestrial Ecology](https://www4.uib.no/en/research/research-groups/terrestrial-ecology) pages.
+
+## Participants statistics
 
 ```{r}
 #| echo: false
@@ -21,11 +26,35 @@ participant_stats("data/student_stats.xlsx")
 
 ## Past courses and workshops
 
+### Course - Finse, 2026
+
+After three years in Hjerkinn, we went back to the research station at Finse for the Open Scicence course in October 2026 (19. - 24. October 2026). We had 18 students participating in the course of which 14 were PhDs. The international group was from research institutions in Norway, Iceland, Finnland, UK, Austria, and Germany.
+
+The weather was sunny with blue sky, when we arrived at Finse. Soon after the arrival we dived into the data life cycle and the students learned about Open Science, reproducible documents, version control, making R functions and packages, GBIF data, data publishing, using AI, data handling, reproducible workflows and environments, best practice in data analysis and reporting results, fair by design. We had lectures and mostly practical exercises. Besides learning about open and reproducible science, we went on a hike, played games in the evening, and enjoyed the sauna. We also had to prepare the food, do the dishes, and clean the place before leaving.
+
+Tired and satisfied after a week of intense coding and learning a lot of new skills, we left Finse. Thank you for the wonderful week!
+
+![Teaching at Finse. Photo: Aud Halbritter](images/course_2026_1.jpeg)
+
+### ![Evening games. Photo: Aud Halbritter](images/course_2026_2.jpeg)
+
+![Enjoying some fresh air. Photo: Aud Halbritter](images/excursion_2026.jpeg)
+
+![Group photo from 2026 course. Photo: Steven Guidos](images/course_2026.jpg)
+
+### Workshop - IAVS, Spain, 2026
+
+We organized a full day workshop *Hands-on training in open and reproducible science* at the IAVS in Gijón, Spain. The aim of the workshop was to show tools for reproducible science including reproducible documents (Quarto) and version control (Git/GitHub). The workshop was aimed at early career researchers with a basic knowledge in R. We had 12 participants.
+
+The workshop was organized by Aud H. Halbritter, Sonya Geange and Dagmar Egelkraut from the University of Bergen.
+
+![Group of students attending the workshop.](images/iavs_2026.jpeg)
+
 ### Course - Hjerkinn, 2025
 
-The 2025 Open, Reproducible and Transparent Course in Ecology was held again at Hjerkinn between the 10th and 15th of November. This year we had 21 students participating in the course. The international group was from institutions in Norway, Sweden, Finnland, Island, UK, Northern Ireland, Austria, and Ghana. The teachers included experts on different topics from GBIF Norway (UiO), NTNU, NINA, and UiB.
+The 2025 Open, Reproducible and Transparent Course in Ecology was held again at Hjerkinn between the 10th and 15th of November. This year we had 21 students participating in the course. The international group was from institutions in Norway, Sweden, Finnland, Iceland, UK, Northern Ireland, Austria, and Ghana. The teachers included experts on different topics from GBIF Norway (UiO), NTNU, NINA, and UiB.
 
-The whole week was dedicated to teaching and learning about the data life cycle. We started with a general introduction to Open Science,tools and approaches, and continued with topics on data handling, repositories, publishing and reuse, reproducible workflows, and analysis. The course was a mix of lectures and hands-on practical exercises. The students got an introduction to GBIF, Darwin Core, and biases in GBIF data. We also covered best practice in data analysis, reporting results, and systematic reviews and meta analysis. For the first time, we also discussed using AI in data publishing and coding. Finally the students were also introduced to tools for more reproducible workflows including quarto, GitHub, and targets. In the middle of the week we took a well deserved break and went for a short hike to Vålåsjøhøe. This was essential to clear our heads and continue the data wrangling and coding for the rest of the week. On the last day, all the students had the opportunity to apply what they have learnt to their own data and work.
+The whole week was dedicated to teaching and learning about the data life cycle. We started with a general introduction to Open Science,tools and approaches, and continued with topics on data handling, repositories, publishing and reuse, reproducible workflows, and analysis. The course was a mix of lectures and hands-on practical exercises. The students got an introduction to GBIF, Darwin Core, and biases in GBIF data. We also covered best practice in data analysis, reporting results, and systematic reviews and meta analysis. For the first time, we also discussed using AI in data publishing and coding. Finally the students were also introduced to tools for more reproducible workflows including quarto, GitHub, and targets. In the middle of the week we took a well deserved break and went for a short hike to Vålåsjøhøe. This was essential to clear our heads and continue the data wrangling and coding for the rest of the week. On the last day, all the students had the opportunity to apply what they have learned to their own data and work.
 
 After a whole week of discussions and coding we all left Hjerkinn satisfied. Hopefully, everybody went home with a new toolkit to apply in their daily data management and coding to support more open and reproducible ecological science.
 
@@ -33,9 +62,9 @@ Thank you for the wonderful week!
 
 ![Group of teachers and students on Open Science course in 2025.](images/course_2025.jpeg){width="2000"}
 
-![Students on the Open Science course.](images/IMG_8175.jpeg){width="2000"}
+![Students on the Open Science course. Photo: Aud Halbritter](images/IMG_8175.jpeg){width="2000"}
 
-![View from top of Vålåsjøhøe.](images/IMG_8170.jpeg){width="2000"}
+![View from top of Vålåsjøhøe. Photo: Aud Halbritter](images/IMG_8170.jpeg){width="2000"}
 
 ### Course - Hjerkinn, 2024
 
@@ -59,7 +88,7 @@ Every day we quickly ran to our lecture room before freezing, as this required a
 
 After five days, we left Hjerkinn tired and satisfied; full of ideas, motivation and newly aquired tools and skills to improve our work and workflows.
 
-![](images/IMG_2869.jpg)
+![A hike to Vålåsjøhøe in deep snow. Photo: Aud Halbritter](images/IMG_2869.jpg)
 
 ### Workshop - Managing Ecological Data, NØF 2023
 
