@@ -261,38 +261,38 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-repositories" class="level3 topic">
 <h3 class="anchored" data-anchor-id="data-repositories">Data repositories</h3>
 <div class="material">
-<p>Data discovery and access - GBIF</p>
+<p>Darwin Core (DwC), Data Publishing, Citation and IPT</p>
 <div class="material-links">
-<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/Introduction%20to%20GBIF.pptx.pdf">Presentation</a></p>
+<p><a href="https://michaltorma.github.io/Open-Science-Course-lectures/01-darwin-core-publishing-ipt/#/1">Presentation</a></p>
 </div>
 </div>
 <div class="material">
-<p>Darwin Core and AI</p>
+<p>Using AI in Data Publishing + AI Exercise</p>
 <div class="material-links">
-<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/DWC%20-%20OS%20Data%20course%202025%20-%20Hjerkinn.pdf">Presentation</a></p>
+<p><a href="https://michaltorma.github.io/Open-Science-Course-lectures/02-using-ai-in-data-publishing/#/1">Presentation</a></p>
 </div>
 </div>
 <div class="material">
-<p>Wonders of GBIF</p>
+<p>Mapping/modelling Biodiversity</p>
 <div class="material-links">
-<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture1Hjerkinn.pdf">Presentation</a></p>
+<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture1Hjerkinn_2026.pdf">Presentation</a></p>
 </div>
 </div>
 <div class="material">
-<p>Biases in GBIF data</p>
+<p>Sampling biases</p>
 <div class="material-links">
-<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture2Hjerkinn.pdf">Presentation</a></p>
-</div>
-</div>
-<div class="material">
-<p>Living Norway R package to publish data</p>
-<div class="material-links">
-<p>Material</p>
+<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/GBIF/lecture2Hjerkinn_2026.pdf">Presentation</a></p>
 </div>
 </div>
 </section>
 <section id="reproducible-workflows" class="level3 topic">
 <h3 class="anchored" data-anchor-id="reproducible-workflows">Reproducible workflows</h3>
+<div class="material">
+<p>Reproducible workflows - FAIR by design</p>
+<div class="material-links">
+<p><a href="https://github.com/Open-Science-Course/OS-training-material/blob/main/reproducibility/Reproducible_workflows.pdf">Presentation</a></p>
+</div>
+</div>
 <div class="material">
 <p>Reproducible workflows - targets</p>
 <div class="material-links">
@@ -424,7 +424,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/open-science-course\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
