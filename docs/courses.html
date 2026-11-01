@@ -139,9 +139,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#upcoming-courses-and-workshops" id="toc-upcoming-courses-and-workshops" class="nav-link active" data-scroll-target="#upcoming-courses-and-workshops">Upcoming courses and workshops</a></li>
-  <li><a href="#participants" id="toc-participants" class="nav-link" data-scroll-target="#participants">Participants</a></li>
+  <li><a href="#participants-statistics" id="toc-participants-statistics" class="nav-link" data-scroll-target="#participants-statistics">Participants statistics</a></li>
   <li><a href="#past-courses-and-workshops" id="toc-past-courses-and-workshops" class="nav-link" data-scroll-target="#past-courses-and-workshops">Past courses and workshops</a>
   <ul class="collapse">
+  <li><a href="#course---finse-2026" id="toc-course---finse-2026" class="nav-link" data-scroll-target="#course---finse-2026">Course - Finse, 2026</a></li>
+  <li><a href="#workshop---iavs-spain-2026" id="toc-workshop---iavs-spain-2026" class="nav-link" data-scroll-target="#workshop---iavs-spain-2026">Workshop - IAVS, Spain, 2026</a></li>
   <li><a href="#course---hjerkinn-2025" id="toc-course---hjerkinn-2025" class="nav-link" data-scroll-target="#course---hjerkinn-2025">Course - Hjerkinn, 2025</a></li>
   <li><a href="#course---hjerkinn-2024" id="toc-course---hjerkinn-2024" class="nav-link" data-scroll-target="#course---hjerkinn-2024">Course - Hjerkinn, 2024</a></li>
   <li><a href="#course---hjerkinn-2023" id="toc-course---hjerkinn-2023" class="nav-link" data-scroll-target="#course---hjerkinn-2023">Course - Hjerkinn, 2023</a></li>
@@ -174,12 +176,58 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>We offer hands-on training on best practice methods and technologies to make research more open, reproducible and transparent. Our <strong>courses and workshops</strong> are centred around the life-cycle of data from planning, managing, collecting, curating, analysing, publishing, storing, sharing and reusing data. They are aimed at PhD students as well as early-career researchers in ecology, who produce their own data (i.e.&nbsp;collect data in the field/lab), use data from others (i.e.&nbsp;databases) or both.</p>
+<style>
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+  margin: 1.1rem 0 1.4rem;
+  align-items: start;
+}
+.photo-gallery.featured {
+  grid-template-columns: 1fr;
+}
+.photo-gallery.featured + .photo-gallery {
+  margin-top: -0.35rem;
+}
+.photo-gallery p,
+.photo-gallery figure,
+.photo-gallery .quarto-figure {
+  margin: 0;
+}
+.photo-gallery img {
+  display: block;
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.photo-gallery.featured img {
+  height: 22rem;
+}
+.photo-gallery figcaption,
+.photo-gallery .quarto-figure figcaption {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+@media (max-width: 640px) {
+  .photo-gallery img,
+  .photo-gallery.featured img {
+    height: 12.5rem;
+  }
+}
+</style>
 <section id="upcoming-courses-and-workshops" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-courses-and-workshops">Upcoming courses and workshops</h2>
-<p><a href="https://www4.uib.no/en/studies/courses/bio940">Open, Reproducible and Transparent Science</a> for PhD students in 2026.</p>
+<p><strong>Workshop at NØF conference in Bergen, 9. February 2027<br>
+</strong>Workshop on Reproducible Research Workflows: A hands-on workshop on Quarto, GitHub, and renv. The workshop is organized by Aud Halbritter and Richard Telford from the University of Bergen.<br>
+Sign up for the workshop <a href="https://nordicsocietyoikos.glueup.com/event/oikos-norway-2027-in-bergen-190260/workshops.html">here</a>.</p>
+<p><strong>Bio940 course on Open, Reproducible and Transparent Science, October 2027<br>
+</strong>More information on the course will be published at the <a href="https://www4.uib.no/en/studies/courses/bio940">UiB course pages</a> and the <a href="https://www4.uib.no/en/research/research-groups/terrestrial-ecology">UiB Terrestrial Ecology</a> pages.</p>
 </section>
-<section id="participants" class="level2">
-<h2 class="anchored" data-anchor-id="participants">Participants</h2>
+<section id="participants-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="participants-statistics">Participants statistics</h2>
 <div class="cell">
 <div class="cell-output-display">
 <style>
@@ -440,29 +488,78 @@ button.os-bar { cursor: pointer; }
 </section>
 <section id="past-courses-and-workshops" class="level2">
 <h2 class="anchored" data-anchor-id="past-courses-and-workshops">Past courses and workshops</h2>
-<section id="course---hjerkinn-2025" class="level3">
-<h3 class="anchored" data-anchor-id="course---hjerkinn-2025">Course - Hjerkinn, 2025</h3>
-<p>The 2025 Open, Reproducible and Transparent Course in Ecology was held again at Hjerkinn between the 10th and 15th of November. This year we had 21 students participating in the course. The international group was from institutions in Norway, Sweden, Finnland, Island, UK, Northern Ireland, Austria, and Ghana. The teachers included experts on different topics from GBIF Norway (UiO), NTNU, NINA, and UiB.</p>
-<p>The whole week was dedicated to teaching and learning about the data life cycle. We started with a general introduction to Open Science,tools and approaches, and continued with topics on data handling, repositories, publishing and reuse, reproducible workflows, and analysis. The course was a mix of lectures and hands-on practical exercises. The students got an introduction to GBIF, Darwin Core, and biases in GBIF data. We also covered best practice in data analysis, reporting results, and systematic reviews and meta analysis. For the first time, we also discussed using AI in data publishing and coding. Finally the students were also introduced to tools for more reproducible workflows including quarto, GitHub, and targets. In the middle of the week we took a well deserved break and went for a short hike to Vålåsjøhøe. This was essential to clear our heads and continue the data wrangling and coding for the rest of the week. On the last day, all the students had the opportunity to apply what they have learnt to their own data and work.</p>
-<p>After a whole week of discussions and coding we all left Hjerkinn satisfied. Hopefully, everybody went home with a new toolkit to apply in their daily data management and coding to support more open and reproducible ecological science.</p>
-<p>Thank you for the wonderful week!</p>
+<section id="course---finse-2026" class="level3">
+<h3 class="anchored" data-anchor-id="course---finse-2026">Course - Finse, 2026</h3>
+<p>After three years in Hjerkinn, we went back to the research station at Finse for the Open Scicence course in October 2026 (19. - 24. October 2026). We had 18 students participating in the course of which 14 were PhDs. The international group was from research institutions in Norway, Iceland, Finnland, UK, Austria, and Germany.</p>
+<p>The weather was sunny with blue sky, when we arrived at Finse. Soon after the arrival we dived into the data life cycle and the students learned about Open Science, reproducible documents, version control, making R functions and packages, GBIF data, data publishing, using AI, data handling, reproducible workflows and environments, best practice in data analysis and reporting results, fair by design. We had lectures and mostly practical exercises. Besides learning about open and reproducible science, we went on a hike, played games in the evening, and enjoyed the sauna. We also had to prepare the food, do the dishes, and clean the place before leaving.</p>
+<p>Tired and satisfied after a week of intense coding and learning a lot of new skills, we left Finse. Thank you for the wonderful week!</p>
+<div class="photo-gallery featured">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/course_2025.jpeg" class="img-fluid figure-img" width="2000"></p>
+<p><img src="images/course_2026.jpg" class="img-fluid figure-img"></p>
+<figcaption>Group photo from 2026 course. Photo: Steven Guidos</figcaption>
+</figure>
+</div>
+</div>
+<div class="photo-gallery">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/course_2026_1.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Teaching at Finse. Photo: Aud Halbritter</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/course_2026_2.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Evening games. Photo: Aud Halbritter</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/excursion_2026.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Enjoying some fresh air. Photo: Aud Halbritter</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="workshop---iavs-spain-2026" class="level3">
+<h3 class="anchored" data-anchor-id="workshop---iavs-spain-2026">Workshop - IAVS, Spain, 2026</h3>
+<p>We organized a full day workshop <em>Hands-on training in open and reproducible science</em> at the IAVS in Gijón, Spain. The aim of the workshop was to show tools for reproducible science including reproducible documents (Quarto) and version control (Git/GitHub). The workshop was aimed at early career researchers with a basic knowledge in R. We had 12 participants.</p>
+<p>The workshop was organized by Aud H. Halbritter, Sonya Geange and Dagmar Egelkraut from the University of Bergen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/iavs_2026.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Group of students attending the workshop.</figcaption>
+</figure>
+</div>
+</section>
+<section id="course---hjerkinn-2025" class="level3">
+<h3 class="anchored" data-anchor-id="course---hjerkinn-2025">Course - Hjerkinn, 2025</h3>
+<p>The 2025 Open, Reproducible and Transparent Course in Ecology was held again at Hjerkinn between the 10th and 15th of November. This year we had 21 students participating in the course. The international group was from institutions in Norway, Sweden, Finnland, Iceland, UK, Northern Ireland, Austria, and Ghana. The teachers included experts on different topics from GBIF Norway (UiO), NTNU, NINA, and UiB.</p>
+<p>The whole week was dedicated to teaching and learning about the data life cycle. We started with a general introduction to Open Science,tools and approaches, and continued with topics on data handling, repositories, publishing and reuse, reproducible workflows, and analysis. The course was a mix of lectures and hands-on practical exercises. The students got an introduction to GBIF, Darwin Core, and biases in GBIF data. We also covered best practice in data analysis, reporting results, and systematic reviews and meta analysis. For the first time, we also discussed using AI in data publishing and coding. Finally the students were also introduced to tools for more reproducible workflows including quarto, GitHub, and targets. In the middle of the week we took a well deserved break and went for a short hike to Vålåsjøhøe. This was essential to clear our heads and continue the data wrangling and coding for the rest of the week. On the last day, all the students had the opportunity to apply what they have learned to their own data and work.</p>
+<p>After a whole week of discussions and coding we all left Hjerkinn satisfied. Hopefully, everybody went home with a new toolkit to apply in their daily data management and coding to support more open and reproducible ecological science.</p>
+<p>Thank you for the wonderful week!</p>
+<div class="photo-gallery featured">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/course_2025.jpeg" class="img-fluid figure-img"></p>
 <figcaption>Group of teachers and students on Open Science course in 2025.</figcaption>
 </figure>
 </div>
+</div>
+<div class="photo-gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/IMG_8175.jpeg" class="img-fluid figure-img" width="2000"></p>
-<figcaption>Students on the Open Science course.</figcaption>
+<p><img src="images/IMG_8175.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Students on the Open Science course. Photo: Aud Halbritter</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/IMG_8170.jpeg" class="img-fluid figure-img" width="2000"></p>
-<figcaption>View from top of Vålåsjøhøe.</figcaption>
+<p><img src="images/IMG_8170.jpeg" class="img-fluid figure-img"></p>
+<figcaption>View from top of Vålåsjøhøe. Photo: Aud Halbritter</figcaption>
 </figure>
+</div>
 </div>
 </section>
 <section id="course---hjerkinn-2024" class="level3">
@@ -489,7 +586,12 @@ button.os-bar { cursor: pointer; }
 <p>Our international students this year were from Scandinavia (Norway, and Denmark), and Europe and Asia (Belgium, Switzerland, Italy, and Thailand). This year one supervisor from a student that took the course last year attended the course to be able to keep up with their students. Also, a cat and a dog were part of the team.</p>
 <p>Every day we quickly ran to our lecture room before freezing, as this required a few steps outside. The students were very interested and engaged and learned how to wrangle data, write code, execute functions, and even learned how to make a package. They learned about reproducible workflows, using tools to improve reproducibility in their own work, such as quarto, git/GitHub and targets. Also, they learned about GBIF, Darwin Core data standards and what it takes to meet the FAIR data standards. One evening we had a fun exercise, where we went through journals searching if the authors provided data and code for their studies and analysis. While the work was fun and the students did not want to stop, the results was disappointing, as we did not find a lot of data and code that was accessible. Mid week, we visited the <a href="https://villrein.no/norsk-villreinsenter/">Villreinsenter</a> at Hjerkinn and afterwards hike through deep snow to a little top and had a deserved break.</p>
 <p>After five days, we left Hjerkinn tired and satisfied; full of ideas, motivation and newly aquired tools and skills to improve our work and workflows.</p>
-<p><img src="images/IMG_2869.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/IMG_2869.jpg" class="img-fluid figure-img"></p>
+<figcaption>A hike to Vålåsjøhøe in deep snow. Photo: Aud Halbritter</figcaption>
+</figure>
+</div>
 </section>
 <section id="workshop---managing-ecological-data-nøf-2023" class="level3">
 <h3 class="anchored" data-anchor-id="workshop---managing-ecological-data-nøf-2023">Workshop - Managing Ecological Data, NØF 2023</h3>
@@ -588,7 +690,7 @@ button.os-bar { cursor: pointer; }
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/open-science-course\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
