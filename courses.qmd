@@ -80,16 +80,16 @@ The weather was sunny with blue sky, when we arrived at Finse. Soon after the ar
 Tired and satisfied after a week of intense coding and learning a lot of new skills, we left Finse. Thank you for the wonderful week!
 
 ::: {.photo-gallery .featured}
-![Group photo from 2026 course. Photo: Steven Guidos](images/course_2026.jpg)
+![Group photo from 2026 course. Photo: Steven Guidos](images/course_2026.jpg){fig-alt="About twenty course participants posing together on a wooden deck outside the Finse research station on a sunny day."}
 :::
 
-:::: photo-gallery
-![Teaching at Finse. Photo: Aud Halbritter](images/course_2026_1.jpeg)
+::: photo-gallery
+![Teaching at Finse. Photo: Aud Halbritter](images/course_2026_1.jpeg){fig-alt="Students with laptops seated in a wood-panelled classroom while an instructor presents a diagram on a projector screen."}
 
-![Evening games. Photo: Aud Halbritter](images/course_2026_2.jpeg)
+![Evening games. Photo: Aud Halbritter](images/course_2026_2.jpeg){fig-alt="Course participants gathered on sofas in a lodge common room during an evening social activity."}
 
-![Enjoying some fresh air. Photo: Aud Halbritter](images/excursion_2026.jpeg)
-::::
+![Enjoying some fresh air. Photo: Aud Halbritter](images/excursion_2026.jpeg){fig-alt="Hikers walking a trail through alpine grassland toward snow-capped mountains under a clear blue sky."}
+:::
 
 ### Workshop - IAVS, Spain, 2026
 
@@ -97,7 +97,7 @@ We organized a full day workshop *Hands-on training in open and reproducible sci
 
 The workshop was organized by Aud H. Halbritter, Sonya Geange and Dagmar Egelkraut from the University of Bergen.
 
-![Group of students attending the workshop.](images/iavs_2026.jpeg)
+![Group of students attending the workshop at IAVS 2026 in Gijón.](images/iavs_2026.jpeg){fig-alt="Thirteen workshop participants standing in a courtyard in front of the Universidad Laboral de Gijón building complex."}
 
 ### Course - Hjerkinn, 2025
 
@@ -110,14 +110,14 @@ After a whole week of discussions and coding we all left Hjerkinn satisfied. Hop
 Thank you for the wonderful week!
 
 ::: {.photo-gallery .featured}
-![Group of teachers and students on Open Science course in 2025.](images/course_2025.jpeg)
+![Group of teachers and students on Open Science course in 2025.](images/course_2025.jpeg){fig-alt="Teachers and students in winter clothing posing with a dog in light snow outside a wooden cabin at Hjerkinn."}
 :::
 
-:::: photo-gallery
-![Students on the Open Science course. Photo: Aud Halbritter](images/IMG_8175.jpeg)
+::: photo-gallery
+![Students on the Open Science course. Photo: Aud Halbritter](images/IMG_8175.jpeg){fig-alt="Students seated at tables with laptops watching a coding presentation, with a dog resting on the floor in the foreground."}
 
-![View from top of Vålåsjøhøe. Photo: Aud Halbritter](images/IMG_8170.jpeg)
-::::
+![View from top of Vålåsjøhøe. Photo: Aud Halbritter](images/IMG_8170.jpeg){fig-alt="Course participants standing on a snowy mountain ridge overlooking a wide valley under an overcast sky."}
+:::
 
 ### Course - Hjerkinn, 2024
 
@@ -127,11 +127,11 @@ The students were interested and engaged in learning how to wrangle data, write 
 
 After five days, we left Hjerkinn tired and satisfied, full of ideas, motivation and inspiration from the new tools and skills to improve how to do science.
 
-![Group of teachers and students on Open Science course in 2024. Photo: Erik Kusch](images/course_2024.png){width="547"}
+![Group of teachers and students on Open Science course in 2024. Photo: Erik Kusch](images/course_2024.png){fig-alt="Teachers and students in outdoor winter clothing posing with a dog on a frosty hillside with mountains behind them." width="547"}
 
 ### Course - Hjerkinn, 2023
 
-![Group of teachers and students on Open Science course in 2023. Photo: Erik Kusch](images/DSC09723.png)
+![Group of teachers and students on Open Science course in 2023. Photo: Erik Kusch](images/DSC09723.png){fig-alt="Teachers and students in colourful winter jackets posing at night in the snow in front of a log cabin, with a dog in the front row."}
 
 In November 2023, the Open Science course was held at Hjerkinn, located between Oslo and Trondheim. Everybody made their way slowly up the mountain. The journey from Oslo took an hour longer, because of a missing bridge and a "bus for tog" replacement. The weather at Hjerkinn was sunny and we entered a winter wonderland. Not only the beauty took away our breath, as the temperature was far below 0 °C. An we walked though deep snow to our accommodation.
 
@@ -141,7 +141,7 @@ Every day we quickly ran to our lecture room before freezing, as this required a
 
 After five days, we left Hjerkinn tired and satisfied; full of ideas, motivation and newly aquired tools and skills to improve our work and workflows.
 
-![A hike to Vålåsjøhøe in deep snow. Photo: Aud Halbritter](images/IMG_2869.jpg)
+![A hike to Vålåsjøhøe in deep snow. Photo: Aud Halbritter](images/IMG_2869.jpg){fig-alt="A line of hikers in colourful winter gear walking away across a deep-snow landscape under a bright cloudy sky."}
 
 ### Workshop - Managing Ecological Data, NØF 2023
 
@@ -153,7 +153,7 @@ Organized by Aud H. Halbritter (University of Bergen), Erlend B. Nilsen (Norwegi
 
 ### Course - Finse Alpine Research Center, 2022
 
-![Group of students and teacher at Open Science course in 2023 at Finse. Photo: Jens Ådne Rekkedal Haga.](images/course_2022.jpg)
+![Group of students and teacher at Open Science course in 2023 at Finse. Photo: Jens Ådne Rekkedal Haga.](images/course_2022.jpg){fig-alt="Annotated group photo of the 2022 Open Science course participants on rocky alpine terrain, with handwritten names and ORCID iDs beside people."}
 
 In November, we held a course on Open, Reproducible, and Transparent Science in Ecology at the Biological Research Station at Finse. The course was a collaboration between BioCEED (University of Bergen), GBIF Norway and Living Norway with teachers from NINA, NTNU, UiO and UiB. The course was aimed for PhD students and offered hands-on training, skills and knowledge on Open Science, data collection, data handling, data standards, data repositories and publishing, reproducible workflows and best practice in data analysis.
 
